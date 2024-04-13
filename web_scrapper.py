@@ -14,7 +14,7 @@ with open("index.html", "r") as f:
 #this will give you access to the first tag name in the doc
 #tag = doc.title
 #this will allow you to get all tags to find the first letter p
-tags = doc.find_all("p")[0]
+tags = doc.find_all("a")[0]
 
 #this will modify the string and then print hello instead of the actual string
 #tag.string = "hello"
